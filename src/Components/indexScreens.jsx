@@ -1,0 +1,9 @@
+export { default as Dashboard } from './Screens/Dashboard';
+export { default as HealthInsti } from './Screens/healthInsti';
+export { default as FinancialInsti } from './Screens/financialInsti';
+export { default as Home } from './Screens/Home';
+export { default as Medicalspecialist } from './Screens/Medicalspecialist';
+export { default as Supportgroups } from './Screens/Supportgroups';
+export { default as SMSManager } from './Screens/SMSManager';
+export { default as Utils } from './Screens/utils';
+export { default as Feed } from './Screens/Feed';
