@@ -277,18 +277,6 @@ export default function Feed() {
             </Card>
           ))}
       </SimpleGrid>
-
-      {/* Empty State */}
-      {!loading && !error && pubData.length === 0 && (
-        <Stack align="center" py={100} gap="sm">
-          <Text fw={600} size="lg">
-            The feed is quiet...
-          </Text>
-          <Text c="dimmed" size="sm">
-            Post something above to get the conversation started.
-          </Text>
-        </Stack>
-      )}
     </Container>
   );
 }
